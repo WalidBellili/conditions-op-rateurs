@@ -113,11 +113,25 @@
 // }
 
 
-const roundedNumber = 16662.47777
+// const roundedNumber = 16662.47777
+// const round =    roundedNumber.toString() 
+// const ind = round.indexOf(".")+1 
+// const sub = round.substring(ind, ind +1)
+
+
+
+// if (parseInt(round) >= 0.5) {
+//     console.log(Math.ceil(roundedNumber));
+// } else {
+//     console.log(Math.floor(roundedNumber));
+// }
+
+
+const roundedNumber = 162.47777
 const round =    roundedNumber.toString() 
 const ind = round.indexOf(".")+1 
-const sub = round.substring(ind, ind +1)
-
+const sub = round.substring(ind, ind +1).split()
+const convert = sub.toString()
 
 
 if (parseInt(round) >= 0.5) {
